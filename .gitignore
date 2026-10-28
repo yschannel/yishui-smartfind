@@ -1,0 +1,26 @@
+# Build products and caches
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+.vscode/
+.cache/
+.clangd
+*.zip
+*.docx
+*.log
+.env
+.env.*
+!.env.example
+
+# Local filesystem indexes
+*.bin
+*_file_index*
